@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastroCliente.css">
+    <title>cadastro</title>
+</head>
+<body>
+    <div class="container">
+    <h2>𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨 𝐝𝐞 𝐜𝐥𝐢𝐞𝐧𝐭𝐞</h2>
+     <form action="/cadastrar_cliente" method="post">
+        <!-- campo para nome completo do cliente -->
+        <label for="nome">𝐍𝐨𝐦𝐞 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐨:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <!-- Campo para email do cliente -->
+        <label for="email">𝐄-𝐦𝐚𝐢𝐥:</label>
+        <input type="email" id="email" name="email" required>
+       
+        <!-- campo para telefone do cliente -->
+        <label for="telefone">𝐓𝐞𝐥𝐞𝐟𝐨𝐧𝐞:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <!-- campo para data de nascimento do cliente -->
+        <label for="nascimento">𝐃𝐚𝐭𝐚 𝐝𝐞 𝐧𝐚𝐬𝐜𝐢𝐦𝐞𝐧𝐭𝐨:</label>
+        <input type="date" id="nascimento" name="nascimento" required>
+
+        <!-- campo para o endereço do cliente -->
+        <label for="endereço">𝐄𝐧𝐝𝐞𝐫𝐞ç𝐨:</label>
+        <input type="text" id="endereço" name="endereço" required>
+
+        <!-- Botão de envio para formulário -->
+         <button type="submit">ᴄᴀᴅᴀꜱᴛʀᴀʀ</button>
+    </form>
+     </div>
+</body>
+</html>
